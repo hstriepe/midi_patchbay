@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -377,10 +377,11 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_ENTITLEMENTS = "MIDI Patchbay.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = EDZJE3T9P5;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = D6WY385Q4D;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -388,13 +389,15 @@
 				GCC_USE_GCC3_PFE_SUPPORT = NO;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.1.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.2.0;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.notahat.MIDIPatchBay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.windholm.MIDIPatchBay;
 				PRODUCT_NAME = "MIDI Patchbay";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SECTORDER_FLAGS = "";
@@ -415,23 +418,25 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_ENTITLEMENTS = "MIDI Patchbay.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = EDZJE3T9P5;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = D6WY385Q4D;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_USE_GCC3_PFE_SUPPORT = NO;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.1.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.2.0;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.notahat.MIDIPatchBay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.windholm.MIDIPatchBay;
 				PRODUCT_NAME = "MIDI Patchbay";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SECTORDER_FLAGS = "";

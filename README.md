@@ -5,7 +5,7 @@ MIDI patchbay lets you hook up your various pieces of MIDI software and hardware
 
 ## Requirements
 
-* Mac OS X 10.15 or later
+* Mac OS X 11 or later
 * External MIDI devices
 * Other MIDI software such as a sequencer or soft synth
 
@@ -63,10 +63,11 @@ Many, many thanks to Kurt Revis both for writing [MIDI Monitor](http://www.snoiz
 
 ## Version History
 
-### Version 1.1.0
+### Version 1.2.0 (20 April 2025, released by H. Stiepe)
 
-* Rework of Catalina and 64-bit support, based on Dan Wilcox's 1.0.4 release
-* Dark mode support
+* Universal for Big Sur or later
+* Sandboxed with added entitlements for file access
+* Notarized
 
 ### Version 1.0.4 (November 2019, released by Dan Wilcox)
 

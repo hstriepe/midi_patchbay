@@ -77,6 +77,7 @@
 		C1CF52CD0C5CF94900D2759D /* PYMIDIVirtualEndpoint.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PYMIDIVirtualEndpoint.m; sourceTree = "<group>"; };
 		C1CF52CE0C5CF94900D2759D /* PYMIDIVirtualSource.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PYMIDIVirtualSource.h; sourceTree = "<group>"; };
 		C1CF52CF0C5CF94900D2759D /* PYMIDIVirtualSource.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PYMIDIVirtualSource.m; sourceTree = "<group>"; };
+		F523D4A42DB5773700AD0A4A /* MIDI Patchbay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MIDI Patchbay.entitlements"; sourceTree = "<group>"; };
 		F598A8A70342E28A01B9BE79 /* Patch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Patch.m; path = "Model Classes/Patch.m"; sourceTree = "<group>"; };
 		F598A8A90342E28A01B9BE79 /* Patch.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Patch.h; path = "Model Classes/Patch.h"; sourceTree = "<group>"; };
 		F598A8B00342E47401B9BE79 /* PatchTableCellData.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = PatchTableCellData.m; path = "View Classes/PatchTableCellData.m"; sourceTree = "<group>"; };
@@ -181,6 +182,7 @@
 				34D64CE5239C72D400FD5032 /* PatchbayDocument.xib */,
 				C12C800205AECD9D0066E007 /* Info.plist */,
 				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				F523D4A42DB5773700AD0A4A /* MIDI Patchbay.entitlements */,
 				F598A8BE0342EE1E01B9BE79 /* Plus.tiff */,
 				C152A6E907559AE9004FF49E /* AppIcon.icns */,
 				C1AB8C7B075DAF9B00C4B27B /* DocIcon.icns */,
@@ -276,7 +278,8 @@
 		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1120;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1630;
 			};
 			buildConfigurationList = C101046C088A0A7C001DFE4F /* Build configuration list for PBXProject "MIDI Patchbay" */;
 			compatibilityVersion = "Xcode 3.0";
@@ -380,8 +383,8 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = D6WY385Q4D;
+				CURRENT_PROJECT_VERSION = 4;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -394,7 +397,7 @@
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 11.5;
-				MARKETING_VERSION = 1.2.0;
+				MARKETING_VERSION = 1.2.0.beta;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
@@ -422,8 +425,8 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = D6WY385Q4D;
+				CURRENT_PROJECT_VERSION = 4;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -435,7 +438,7 @@
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 11.5;
-				MARKETING_VERSION = 1.2.0;
+				MARKETING_VERSION = 1.2.0.beta;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.windholm.MIDIPatchBay;
@@ -456,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -469,13 +473,17 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = D6WY385Q4D;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -495,6 +503,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -508,12 +517,16 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = D6WY385Q4D;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION_i386 = 4.0;
 				GCC_VERSION_ppc = 3.3;

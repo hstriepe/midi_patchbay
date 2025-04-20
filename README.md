@@ -63,7 +63,7 @@ Many, many thanks to Kurt Revis both for writing [MIDI Monitor](http://www.snoiz
 
 ## Version History
 
-### Version 1.2.0 (20 April 2025, released by H. Stiepe)
+### Version 1.2.0 (20 April 2025, released by H. Striepe)
 
 * Universal for Big Sur or later
 * Sandboxed with added entitlements for file access

@@ -5,7 +5,7 @@ MIDI patchbay lets you hook up your various pieces of MIDI software and hardware
 
 ## Requirements
 
-* Mac OS X 11 or later
+* Mac OS X 11.5 or later
 * External MIDI devices
 * Other MIDI software such as a sequencer or soft synth
 
@@ -58,8 +58,9 @@ Thanks to Anthony Lauzon for many fixes.
 
 Thanks to Kevan Staples for generously donating the MIDI Patchbay icon.
 
-Many, many thanks to Kurt Revis both for writing [MIDI Monitor](http://www.snoize.com/MIDIMonitor), without which testing this thing would have been a nightmare, and for answering a million of my questions. Without his help I would have struggled over the code for a lot longer.
+Latest updates for Big Sur and later by H. Striepe.
 
+Many, many thanks to Kurt Revis both for writing [MIDI Monitor](http://www.snoize.com/MIDIMonitor), without which testing this thing would have been a nightmare, and for answering a million of my questions. Without his help I would have struggled over the code for a lot longer.
 
 ## Version History
 
@@ -114,3 +115,25 @@ Many, many thanks to Kurt Revis both for writing [MIDI Monitor](http://www.snoiz
 ### Version 0.1 (21 February 2002)
 
 * initial release
+
+### LICENSE
+
+Copyright (c) 2019 - 2025 Peter Yandell
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

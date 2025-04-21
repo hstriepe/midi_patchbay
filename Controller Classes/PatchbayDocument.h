@@ -172,5 +172,6 @@
 
 - (void)endpointPanelDidEnd:(NSWindow*)sheet returnCode:(int)returnCode contextInfo:(void*)contextInfo;
 
+- (IBAction)showHelp:(id)sender;
 
 @end

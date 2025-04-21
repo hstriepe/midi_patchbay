@@ -1111,5 +1111,14 @@
     [[self undoManager] endUndoGrouping];
 }
 
+- (IBAction)showHelp:(id)sender {
+    NSLog(@"Asked for HELP.");
+    NSString *pdfPath = [[NSBundle mainBundle] pathForResource:@"Help" ofType:@"pdf"];
+    if (pdfPath) {
+        [[NSWorkspace sharedWorkspace] openFile:pdfPath];
+    } else {
+        NSLog(@"Help PDF not found in bundle.");
+    }
+}
 
 @end

@@ -36,6 +36,7 @@
 		C1CF52E20C5CF94900D2759D /* PYMIDIVirtualDestination.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CF52CB0C5CF94900D2759D /* PYMIDIVirtualDestination.m */; };
 		C1CF52E40C5CF94900D2759D /* PYMIDIVirtualEndpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CF52CD0C5CF94900D2759D /* PYMIDIVirtualEndpoint.m */; };
 		C1CF52E60C5CF94900D2759D /* PYMIDIVirtualSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CF52CF0C5CF94900D2759D /* PYMIDIVirtualSource.m */; };
+		F5AD85A32DB60DA700A167B2 /* Help.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5AD85A22DB60DA700A167B2 /* Help.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,7 +78,6 @@
 		C1CF52CD0C5CF94900D2759D /* PYMIDIVirtualEndpoint.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PYMIDIVirtualEndpoint.m; sourceTree = "<group>"; };
 		C1CF52CE0C5CF94900D2759D /* PYMIDIVirtualSource.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PYMIDIVirtualSource.h; sourceTree = "<group>"; };
 		C1CF52CF0C5CF94900D2759D /* PYMIDIVirtualSource.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PYMIDIVirtualSource.m; sourceTree = "<group>"; };
-		F523D4A42DB5773700AD0A4A /* MIDI Patchbay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MIDI Patchbay.entitlements"; sourceTree = "<group>"; };
 		F598A8A70342E28A01B9BE79 /* Patch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Patch.m; path = "Model Classes/Patch.m"; sourceTree = "<group>"; };
 		F598A8A90342E28A01B9BE79 /* Patch.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Patch.h; path = "Model Classes/Patch.h"; sourceTree = "<group>"; };
 		F598A8B00342E47401B9BE79 /* PatchTableCellData.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = PatchTableCellData.m; path = "View Classes/PatchTableCellData.m"; sourceTree = "<group>"; };
@@ -87,6 +87,7 @@
 		F598A8BA0342E64501B9BE79 /* PatchTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = PatchTableDataSource.m; path = "Controller Classes/PatchTableDataSource.m"; sourceTree = "<group>"; };
 		F598A8BB0342E64501B9BE79 /* PatchTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PatchTableDataSource.h; path = "Controller Classes/PatchTableDataSource.h"; sourceTree = "<group>"; };
 		F598A8BE0342EE1E01B9BE79 /* Plus.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Plus.tiff; sourceTree = "<group>"; };
+		F5AD85A22DB60DA700A167B2 /* Help.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Help.pdf; sourceTree = "<group>"; };
 		F5C0AB13033196D6018C91A3 /* PatchbayDocument.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PatchbayDocument.h; path = "Controller Classes/PatchbayDocument.h"; sourceTree = "<group>"; };
 		F5C0AB14033196D6018C91A3 /* PatchbayDocument.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = PatchbayDocument.m; path = "Controller Classes/PatchbayDocument.m"; sourceTree = "<group>"; };
 		F5C0AB170331972E018C91A3 /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
@@ -182,10 +183,10 @@
 				34D64CE5239C72D400FD5032 /* PatchbayDocument.xib */,
 				C12C800205AECD9D0066E007 /* Info.plist */,
 				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
-				F523D4A42DB5773700AD0A4A /* MIDI Patchbay.entitlements */,
 				F598A8BE0342EE1E01B9BE79 /* Plus.tiff */,
 				C152A6E907559AE9004FF49E /* AppIcon.icns */,
 				C1AB8C7B075DAF9B00C4B27B /* DocIcon.icns */,
+				F5AD85A22DB60DA700A167B2 /* Help.pdf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -310,6 +311,7 @@
 				342D628C23A4D616003CBFA6 /* Credits.html in Resources */,
 				C1AB8C7C075DAF9B00C4B27B /* DocIcon.icns in Resources */,
 				34D64CE4239C72BE00FD5032 /* MainMenu.xib in Resources */,
+				F5AD85A32DB60DA700A167B2 /* Help.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
